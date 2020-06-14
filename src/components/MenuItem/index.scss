@@ -1,0 +1,18 @@
+.menuItemContainer {
+  width: 160px;
+  height: 160px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #666;
+  border-bottom: 1px solid #d8d8d8;
+  .icon {
+    width: 68px;
+    height: 68px;
+  }
+  .active {
+    font-size: 14px;
+    color: #2950b8;
+  }
+}

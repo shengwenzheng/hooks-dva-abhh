@@ -1,0 +1,26 @@
+.alarmAll{
+  .alarmType{
+    border: 1px solid #dfdcdf;
+    padding: 5px 0;
+    font-size: 14px;
+    width: 120px;
+    text-align: center;
+  }
+  :global{
+    .ant-tabs-bar{
+      border: none;
+    }
+    .ant-tabs-content {
+      height: 514px;
+      overflow: auto;
+    }
+    .ant-tabs-nav .ant-tabs-tab{
+      margin: 0;
+      padding: 12px 0;
+    }
+    .ant-tabs-ink-bar{
+      width: 120px !important;
+      top: 11px;
+    }
+  }
+}

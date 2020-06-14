@@ -1,0 +1,79 @@
+.routeTravelContainer {
+  width: 100%;
+  height: 100%;
+  color: #fff;
+  font-size: 14px;
+  display: flex;
+  flex-direction: column;
+  .header {
+    height: 32px;
+    padding: 0 14px 0 24px;
+    background-color: #2950b8;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    .showCarModal{
+      cursor: pointer;
+      background: rgb(23,55,149);
+      margin-left: 50px;
+      position: relative;
+      width: 120px;
+      display: inline-block;
+      height: 20px;
+      font-size:12px;
+      font-weight:200;
+      color:rgba(255,255,255,1);
+      line-height:20px;
+      text-align: center;
+      .arrow_link{
+        width: 12px;
+        height: 8px;
+        position: absolute;
+        top: 50%;
+        transform: translate(-50%, -50%);
+        right: 0px;
+      }
+    }
+    .right {
+      display: flex;
+      align-items: center;
+    }
+  }
+  .body {
+    flex-grow: 1;
+    margin: 0 40px;
+    position: relative;
+    display: flex;
+    .progress {
+      width: 100%;
+      height: 4px;
+      background-color: #a2a2a2;
+      border-radius: 2px;
+      margin: auto;
+      position: relative;
+      .progressInner {
+        height: 100%;
+        border-radius: 2px;
+        background-color: #db311c;
+        transition: all 1s;
+        position: absolute;
+        z-index: 1;
+      }
+      .areaPoint {
+        .area {
+          background: #eaebff;
+          position: absolute;
+          top: -78px;
+          height: 160px;
+          width: 100px;
+          text-align: center;
+          span {
+            background: #e7e8b8;
+            color: #3f3b2a;
+            padding: 0 5px;
+          }
+        }
+      }
+    }
+  }
+}

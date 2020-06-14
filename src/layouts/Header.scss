@@ -1,0 +1,56 @@
+.headerContainer {
+  height: 48px;
+  width: 100%;
+  background: #2950b8;
+  flex-shrink: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #fff;
+  .headTitle {
+    font-size: 26px;
+    font-weight: 500;
+    width: 350px;
+    text-align: center;
+  }
+  .left,
+  .right {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    width: 350px;
+  }
+  .right {
+    justify-content: flex-end;
+  }
+  .title,
+  .divide,
+  .subtitle {
+    line-height: 28px;
+  }
+  .logo {
+    width: 30px;
+    height: 30px;
+    margin: 0 10px;
+  }
+  .title {
+    font-size: 20px;
+    font-weight: bold;
+  }
+  .version {
+    font-size: 14px;
+    font-weight: bold;
+    margin: 8px 0 0 3px;
+  }
+  .divide {
+    font-size: 20px;
+    margin: 0 20px 0 15px;
+  }
+  .subtitle {
+    font-size: 20px;
+  }
+  .username {
+    font-size: 16px;
+    margin-right: 25px;
+  }
+}

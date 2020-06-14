@@ -1,0 +1,17 @@
+.areaChargeList {
+  .deptOption {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 8px;
+    span {
+      flex: none;
+      margin-right: 10px;
+    }
+    :global {
+      .ant-select {
+        width: 100%;
+      }
+    }
+  }
+}

@@ -1,0 +1,34 @@
+.keyPointLine {
+  margin-bottom: 10px;
+  display: flex;
+  align-items: center;
+  input:nth-of-type(1) {
+    width: 90px;
+  }
+  input:nth-of-type(2) {
+    width: 90px;
+  }
+  & > span {
+    width: 55px;
+    font-size: 14px;
+    color: #333;
+  }
+  .imgBox {
+    width: 32px;
+    height: 32px;
+    border: 1px solid #d9d9d9;
+    margin-left: -1px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    img {
+      width: 14px;
+      height: 20px;
+    }
+  }
+  .plus,
+  .minus {
+    font-size: 28px;
+    margin-left: 8px;
+  }
+}

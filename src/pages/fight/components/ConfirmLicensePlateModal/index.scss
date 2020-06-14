@@ -1,0 +1,41 @@
+.title {
+  margin-top: 20px;
+  font-size: 18px;
+  color: #111;
+}
+.subscriptions {
+  font-size: 14px;
+  color: #333;
+  margin-top: 5px;
+}
+.selectBox {
+  margin: 8px 0;
+  font-size: 14px;
+  color: #333;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  &>span{
+    white-space: nowrap;
+  }
+  .leadingCar{
+    margin-top: 5px;
+    display: flex;
+    justify-content: space-between;
+  }
+}
+.footer {
+  .warn{
+    color:red
+  }
+  &::after {
+    content: '';
+    display: block;
+    clear: both;
+  }
+  .button {
+    margin-top: 10px;
+    margin-left: 10px;
+    float: right;
+  }
+}

@@ -1,0 +1,24 @@
+.routeGuardContainer {
+  height: 100%;
+  padding: 25px;
+  background-color: #f1f1f1;
+  :global {
+    .ant-tabs {
+      height: 100%;
+    }
+    .ant-tabs-bar {
+      margin: 0;
+    }
+    .ant-tabs-content {
+      height: calc(100% - 40px);
+      border-left: 1px solid #e8e8e8;
+      border-right: 1px solid #e8e8e8;
+      border-bottom: 1px solid #e8e8e8;
+      background-color: #fff;
+    }
+    .ant-tabs.ant-tabs-card .ant-tabs-card-bar .ant-tabs-tab {
+      width: 120px;
+      text-align: center;
+    }
+  }
+}

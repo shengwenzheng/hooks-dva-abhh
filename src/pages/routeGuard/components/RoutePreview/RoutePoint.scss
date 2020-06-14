@@ -1,0 +1,24 @@
+.routePointContainer {
+  margin: 0 0 10px 30px;
+  p:nth-child(1) {
+    display: flex;
+    justify-content: space-between;
+    img {
+      width: 10px;
+      height: 10px;
+      margin-right: 10px;
+      object-fit: contain;
+    }
+    span {
+      font-size: 14px;
+      font-weight: 500;
+      color: #333;
+    }
+  }
+  p:nth-child(2) {
+    // margin-left: 20px;
+    font-size: 12px;
+    font-weight: 500;
+    color: #666;
+  }
+}

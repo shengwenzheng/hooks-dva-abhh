@@ -1,0 +1,35 @@
+.record{
+    position: absolute;
+    right: 100px;
+    :global{
+        .ant-btn{
+            display: flex;
+        }
+    }
+    .icon{
+        display: inline-block;
+        width:18px;
+        height:18px;
+        border:1px solid rgba(255,255,255,1);
+        border-radius: 100px;
+        margin-right: 8px;
+        margin-top: 2px;
+        >div{
+            position: relative;
+            left: 50%;
+            transform: translate(-3px, -3px);
+            top: 50%;
+        }
+    }
+    .normalIconInner{
+        width:6px;
+        height:6px;
+        background:rgba(255,255,255,1);
+        border-radius: 100px;
+    }
+    .recordingIconInner{
+        width:6px;
+        height:6px;
+        background:red;
+    }
+}

@@ -1,0 +1,10 @@
+.body {
+  height: 100%;
+  position: relative;
+  :global {
+    .ant-steps {
+      background-color: #f1f1f1;
+      padding: 12px 70px;
+    }
+  }
+}

@@ -1,0 +1,81 @@
+.content {
+  height: 450px;
+  margin-top: 30px;
+  display: flex;
+  justify-content: space-between;
+  .left {
+    width: 360px;
+    padding-right: 15px;
+    overflow: auto;
+    .title {
+      font-size: 16px;
+      font-weight: 500;
+      color: #333;
+      .download {
+        cursor: pointer;
+        font-size:14px;
+        font-family:PingFangSC-Regular,PingFang SC;
+        font-weight:400;
+        color:rgba(41,80,184,1);
+        line-height:24px;
+        float: right;
+        font-size: 14px;
+        img {
+          margin-right: 2px;
+          width: 12px;
+          height: 12px;
+          vertical-align: baseline;
+        }
+      }
+    }
+    .body {
+      margin: 8px 0 16px 0;
+      font-size: 14px;
+      >span{
+        display: inline-block;
+        width: 49%;
+        :global{
+          .ant-upload{
+            width: 100%;
+            >span{
+              width: 100%;
+            }
+            button{
+              width: 100%;
+            }
+          }
+        }
+        &:first-child{
+          margin-right: 2%
+        }
+      }
+      img {
+        width: 16px;
+        height: 16px;
+        vertical-align: text-bottom;
+      }
+    }
+  }
+  .right {
+    width: 560px;
+    background-color: #ccc;
+  }
+}
+.footer {
+  width: 480px;
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  justify-content: center;
+  & > button {
+    width: 200px;
+    margin: 0 20px;
+  }
+
+  .greenButton {
+    background-color: #139b16;
+    border-color: #139b16;
+  }
+}

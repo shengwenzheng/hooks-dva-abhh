@@ -1,0 +1,9 @@
+.interSectionContainer {
+  :global {
+    .ant-checkbox-group {
+      margin-left: 10px;
+      display: flex;
+      flex-direction: column;
+    }
+  }
+}

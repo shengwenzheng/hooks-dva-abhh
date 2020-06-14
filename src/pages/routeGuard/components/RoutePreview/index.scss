@@ -1,0 +1,54 @@
+.routePreviewContainer {
+  .content {
+    height: 450px;
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+    .left {
+      width: 360px;
+      overflow: auto;
+      .radioContainer {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 10px;
+        font-size: 22px;
+      }
+    }
+    .right {
+      width: 560px;
+      background-color: #ccc;
+    }
+  }
+  .footer {
+    width: 480px;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    justify-content: center;
+    & > button {
+      width: 200px;
+      margin: 0 20px;
+    }
+
+    .greenButton {
+      background-color: #139b16;
+      border-color: #139b16;
+    }
+  }
+  .startEnd {
+    margin-bottom: 10px;
+    img {
+      width: 26px;
+      height: 37px;
+      margin-right: 12px;
+    }
+    span {
+      font-size: 18px;
+      font-weight: 500;
+      color: #333;
+    }
+  }
+}

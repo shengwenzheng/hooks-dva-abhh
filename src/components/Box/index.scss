@@ -1,0 +1,37 @@
+.boxContainer {
+  position: relative;
+  padding: 2px;
+  .content {
+    width: 100%;
+    height: 100%;
+    border: 2px solid rgba(53, 98, 226, 0.5);
+    background: #fff;
+    position: relative;
+    z-index: 1;
+  }
+  .leftTop,
+  .rightTop,
+  .leftBottom,
+  .rightBottom {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    background-color: #2950b8;
+  }
+  .leftTop {
+    left: 0;
+    top: 0;
+  }
+  .rightTop {
+    right: 0;
+    top: 0;
+  }
+  .leftBottom {
+    left: 0;
+    bottom: 0;
+  }
+  .rightBottom {
+    right: 0;
+    bottom: 0;
+  }
+}

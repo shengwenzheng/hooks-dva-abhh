@@ -1,0 +1,59 @@
+.mapContainer {
+  height: 100%;
+  width: 100%;
+  :global {
+    .marker-cluster-video {
+      text-align: center !important;
+      line-height: 0.22 * 100px;
+      background: url('../../../../assets/img/map/cluster-video.png');
+
+      span {
+        color: #2979ff;
+        //width:.12*100px;
+        //height:.08*100px;
+        font-size: 0.06 * 100px;
+        font-family: PingFangSC-Semibold, PingFang SC;
+        font-weight: 600;
+        color: rgba(136, 136, 136, 1);
+        //line-height: .08*100px;
+        padding-left: 0.26 * 100px;
+      }
+    }
+
+    .marker-cluster-faceITC {
+      text-align: center !important;
+      line-height: 0.22 * 100px;
+      background: url('../../../../assets/img/map/cluster-face.png');
+
+      span {
+        color: #2979ff;
+        //width:.12*100px;
+        //height:.08*100px;
+        font-size: 0.06 * 100px;
+        font-family: PingFangSC-Semibold, PingFang SC;
+        font-weight: 600;
+        color: rgba(136, 136, 136, 1);
+        //line-height: .08*100px;
+        padding-left: 0.26 * 100px;
+      }
+    }
+
+    .marker-cluster-carITC {
+      text-align: center !important;
+      line-height: 0.22 * 100px;
+      background: url('../../../../assets/img/map/cluster-car.png');
+
+      span {
+        color: #2979ff;
+        //width:.12*100px;
+        //height:.08*100px;
+        font-size: 0.06 * 100px;
+        font-family: PingFangSC-Semibold, PingFang SC;
+        font-weight: 600;
+        color: rgba(136, 136, 136, 1);
+        //line-height: .08*100px;
+        padding-left: 0.26 * 100px;
+      }
+    }
+  }
+}

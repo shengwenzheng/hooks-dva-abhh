@@ -1,0 +1,28 @@
+.carInfo {
+  transition: all 1s;
+  position: absolute;
+  bottom: 15px;
+  transform: translateX(-50%);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  .car {
+    width: 34px;
+    height: 17px;
+  }
+  .info {
+    height: 26px;
+    padding: 0 5px;
+    margin-bottom: 8px;
+    background: #268d15;
+    border: 1px solid #2950b8;
+    color: #fff;
+    .number {
+      font-size: 16px;
+    }
+    .unit {
+      font-size: 12px;
+    }
+  }
+}

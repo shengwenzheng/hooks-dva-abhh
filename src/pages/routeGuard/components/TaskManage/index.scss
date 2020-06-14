@@ -1,0 +1,20 @@
+.taskManageContainer {
+  padding: 20px;
+  height: 100%;
+  :global {
+    .ant-btn-link {
+      padding: 0;
+    }
+  }
+  .header {
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+  }
+  .buttonContainer {
+    text-align: center;
+    & > div {
+      margin: -8px 0;
+    }
+  }
+}

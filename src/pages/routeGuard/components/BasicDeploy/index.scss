@@ -1,0 +1,27 @@
+.form {
+  margin-top: 30px;
+  :global {
+    .ant-form-item {
+      margin-bottom: 19px;
+    }
+    .ant-form-item-with-help {
+      margin-bottom: 0;
+    }
+  }
+  .controlRange {
+    color: red;
+  }
+  .footer {
+    width: 480px;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    justify-content: center;
+    & > button {
+      width: 200px;
+      margin: 0 20px;
+    }
+  }
+}

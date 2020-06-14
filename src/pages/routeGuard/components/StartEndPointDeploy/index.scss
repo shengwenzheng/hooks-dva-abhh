@@ -1,0 +1,46 @@
+.startEndPointDeployContainer {
+  .content {
+    height: 450px;
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+    .left {
+      width: 300px;
+    }
+    .right {
+      width: 560px;
+      background-color: #ccc;
+    }
+  }
+  .footer {
+    width: 480px;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    justify-content: center;
+    & > button {
+      width: 200px;
+      margin: 0 20px;
+    }
+  }
+  .line {
+    margin-bottom: 8px;
+    display: flex;
+    align-items: center;
+    :global {
+      .ant-select {
+        width: 220px;
+      }
+    }
+    span:nth-child(1) {
+      width: 40px;
+    }
+    .icon {
+      width: 26px;
+      height: 37px;
+      margin-left: 10px;
+    }
+  }
+}
